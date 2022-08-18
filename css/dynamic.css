@@ -1,0 +1,34 @@
+/* 模块一 start */
+.dynamic_module_one {
+  background: url('/images/purchase/module1.png') no-repeat;
+  background-size: 100% 100%;
+  margin-top: -60px;
+  padding-top: 60px;
+  padding-bottom: 130px;
+}
+.dynamic_module_one .w {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dynamic_module_one .dynamic_module_left {
+  width: 46%;
+}
+.dynamic_module_one .dynamic_module_left h3 {
+  font-size: 64px;
+  color: #333333;
+  line-height: 68px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.dynamic_module_one .dynamic_module_left p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 32px;
+  font-weight: 200;
+}
+.dynamic_module_one .dynamic_module_right {
+  width: 60%;
+  margin-right: -10%;
+}
+/* 模块一 end */

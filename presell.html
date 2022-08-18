@@ -170,6 +170,7 @@
       return `<p>${ remainDay }</p><i>d</i><p>${ remainHour }</p><i>h</i><p>${ remainMinute }</p><i>m</i>`
     }
     var timer = null
+    clearInterval(timer)
     timer = setInterval(function() {
       if (new Date().getTime() > endTime) {
         clearInterval(timer)
