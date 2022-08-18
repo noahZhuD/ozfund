@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <title>OzFund_官网_web3</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <!-- 私有 -->
+  <link rel="stylesheet" href="/css/purchase.css">
+  <link rel="stylesheet" href="/css/conversion.css">
+</head>
+<body>
+  <!-- 公用顶部 -->
+  <div class="public_head w">
+    <h1 class="logo"><a href="/"><img src="/images/logo.png" alt=""></a></h1>
+    <ul class="head_nav">
+      <li><a href="">主页</a></li>
+      <li><a href="">生态</a></li>
+      <li class="cur"><a href="">购买与质押</a></li>
+      <li><a href="">TOTO预售</a></li>
+      <li><a href="">进程</a></li>
+      <li><a href="">动态</a></li>
+    </ul>
+    <div class="head_operate">
+      <a href=""><img src="/images/home/yuy.png" alt=""></a>
+      <a href=""><img src="/images/home/youtube.png" alt=""></a>
+      <a href=""><img src="/images/home/tele.png" alt=""></a>
+      <a href=""><img src="/images/home/tiw.png" alt=""></a>
+      <button>连接钱包</button>
+    </div>
+  </div>
+  <div class="mobile_nav">
+    <div class="top">
+      <div class="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a href="/" class="mobile_logo">
+        <img src="/images/logo.png" alt="">
+      </a>
+      <!-- <button>连接钱包</button> -->
+    </div>
+    <div class="menu_info">
+      <ul class="menu_info_list">
+        <lix><a href="">主页</a></li>
+        <li><a href="">生态</a></li>
+        <li class="cur"><a href="">购买与质押</a></li>
+        <li><a href="">TOTO预售</a></li>
+        <li><a href="">进程</a></li>
+        <li><a href="">动态</a></li>
+      </ul>
+    </div>
+    <div class="menu_info_bg"></div>
+  </div>
+  <!-- 模块一 -->
+  <div class="purchase_module_one">
+    <div class="w">
+      <div class="purchase_module_w">
+        <div class="purchase_module_left">
+          <h3>购买OZC</h3>
+          <p>OZC与美元稳定币USDT、USDC、BUSD 1:1 锚定，是Oz博彩生态中的筹码，可以用于投注。随着Oz生态的拓展，OZC也将与众多链上项目合作，完善资产管理机制。</p>
+        </div>
+        <div class="purchase_module_right">
+          <img src="/images/purchase/gif/module1.gif" alt="">
+        </div>
+      </div>
+      <div class="conversion">
+        <div class="conversion_top">
+          <div class="conversion_info">
+            <div class="conversion_info_top"><p>从</p><span>数量：1999USDT</span></div>
+            <div class="conversion_info_input">
+              <p>USDT-ERC2</p>
+              <input id="usdt" type="number" placeholder="0">
+            </div>
+          </div>
+          <div class="conversion_icon">
+            <img src="/images/purchase/icon.png" alt="">
+          </div>
+          <div class="conversion_info">
+            <div class="conversion_info_top"><p>至</p><span>数量：1999USDT</span></div>
+            <div class="conversion_info_input">
+              <p>Ozcoin</p>
+              <input id="ozc" type="number" placeholder="0">
+            </div>
+          </div>
+        </div>
+        <button id="conversionBtn" class="conversion_btn">兑换</button>
+      </div>
+    </div>
+  </div>
+  <!-- 模块二 -->
+  <div class="purchase_module_two">
+    <div class="w">
+      <div class="purchase_module_left">
+        <img src="/images/purchase/gif/module2.gif" alt="">
+      </div>
+      <div class="purchase_module_right">
+        <h3>质押OZC获得TOTO </h3>
+        <p>
+          利率参考：8.23% 
+          <br>
+          <br>
+          TOTO正式发行后，10%的产出将流入OZC质押池。用户参与质押OZC挖TOTO需要进行一个月的锁仓。锁仓期间，每日将根据质押池中各地址质押比例对TOTO进行结算。用户将在锁仓期满提取时同步获得TOTO。
+          <br>
+          <br>
+          <i>注：期满如想继续质押挖矿，需要提取原有资产重新进行质押操作。</i>
+        </p>
+        <div class="purchase_btns">
+          <button class="purchase_btn_one">质押<div class="arrow"><i></i></div></button>
+          <button class="purchase_btn_two">提取<div class="arrow"><i></i></div></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 模块三 -->
+  <div class="purchase_module_three">
+    <div class="w">
+      <div class="purchase_module_txt">
+        <h3>TOTO的发行与销毁机制</h3>
+        <p>
+          TOTO自2022年x月x日0点（UTC+x）开始发行，第一天的生产量为10,000,000（一千万）个，每天的产出量呈递减趋势，第二天的产出是前一天的99.99%。TOTO的产出与发放将严格按照前期设定的比例进行，保持公开透明。当TOTO的日生产量递减至1,000,000（一百万）每天时，产量将不再递减。
+          <br><br>
+          为了控制TOTO的流通数量并推动TOTO的相对价格，Ozfund将对TOTO进行多种形式的销毁，包括但不限于：<br>
+          1. 开放Oz Prize Pool奖池，将Ozbet每日投注抽水的一部分用于TOTO回购销毁。<br>
+          2. 在博彩游戏中设置销毁机制，用户使用TOTO进行游戏后将有不同比例的TOTO被销毁。<br>
+          3. Ozfund会不定期发起DAO投票，对社区意见进行征询后发起特殊回购销毁计划。
+        </p>
+      </div>
+      <div class="purchase_module_img">
+        <img src="/images/purchase/gif/module3.gif" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="purchase_module_three">
+    <div class="w">
+      <div class="purchase_module_img">
+        <img src="/images/purchase/gif/module4.gif" alt="">
+      </div>
+      <div class="purchase_module_txt">
+        <h3>TOTO的使用与流通</h3>
+        <p>
+          持有TOTO的用户可以在Ozbet的体育赛事、电子竞技赛事、TOTO彩票、老虎机、现场荷官、电子游戏等娱乐版块进行消费，也可以在Ozbet平台内购买NFT艺术品等加密资产，并享受诸多会员服务。
+          <br><br>
+          博彩用户可以在Ozbet的Oz Prize Pool奖池中随时将TOTO兑换为OZC（与美元稳定币1:1锚定），随着Oz生态的拓展，TOTO也将与其他链上项目合作，并登录交易所。用户可以在多个Swap应用中将TOTO兑换，也可以将TOTO提取至交易所进行售卖。
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 曲线图 -->
+  <div class="graph">
+    <div class="w">
+      <p class="graph_tit">TOTO/USDT价格</p>
+      <div class="graph_data">
+        <div class="graph_data_left">
+          <p>723 </p><span>TOTO/USDT</span><i>+0.231(0.30%)</i>
+        </div>
+        <ul class="graph_data_right">
+          <li class="cur">24H</li>
+          <li>1W</li>
+          <li>1M</li>
+          <li>1Y</li>
+        </ul>
+      </div>
+      <p class="graph_time">jul19,2022,02:12PM</p>
+      <!-- 本体 -->
+      <div id='curve'></div>
+    </div>
+  </div>
+  <!-- 模块四 -->
+  <div class="purchase_module_four">
+    <div class="w">
+      <div class="allocation">
+        <div class="allocation_left">
+          <p class="allocation_tit">TOTO通证分配</p>
+          <ul>
+            <li><p><i></i>长期支持者占</p><span>15%</span></li>
+            <li><p><i></i>OZ基金会占比</p><span>30%</span></li>
+            <li><p><i></i>OZ团队成员占比</p><span>20%</span></li>
+            <li><p><i></i>流动性池占比</p><span>5%</span></li>
+            <li><p><i></i>用户OZC投注主矿池挖矿</p><span>20%</span></li>
+            <li><p><i></i>VIP用户OZC投注VIP矿池挖矿</p><span>10%</span></li>
+          </ul>
+        </div>
+        <div class="allocation_right">
+          <img src="/images/purchase/gif/module5.gif" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 公用底部 -->
+  <div class="public_foo">
+    <div class="w">
+      <img class="logo" src="/images/logo.png" alt="">
+      <ul>
+        <li><a href="">Oz Fund官网</a></li>
+        <li>｜</li>
+        <li><a href="">Ozbet官网</a></li>
+        <li>｜</li>
+        <li><a href="">auPay官网</a></li>
+        <li>｜</li>
+        <li><a href="">白皮书</a></li>
+        <li>｜</li>
+        <li><a href="">条款和条件</a></li>
+        <li>｜</li>
+        <li><a href="">隐私政策</a></li>
+      </ul>
+      <p class="rights">All rights reserved,Oz Fund</p>
+    </div>
+  </div>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/index.js"></script>
+  <!-- 私 -->
+  <script src="/js/echarts.js"></script>
+  <script src="/js/purhase.js"></script>
+  <script src="/js/conversion.js"></script>
+  <script>
+    
+  </script>
+</body>
+</html>
