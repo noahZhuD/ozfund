@@ -110,8 +110,41 @@
           <i>注：期满如想继续质押挖矿，需要提取原有资产重新进行质押操作。</i>
         </p>
         <div class="purchase_btns">
-          <button class="purchase_btn_one">质押<div class="arrow"><i></i></div></button>
-          <button class="purchase_btn_two">提取<div class="arrow"><i></i></div></button>
+          <button class="purchase_btn_one pledge">质押<div class="arrow"><i></i></div></button>
+          <button class="purchase_btn_two extract">提取<div class="arrow"><i></i></div></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 质押pop -->
+  <div class="modal_wrap">
+    <div class="modal">
+      <img class="modal_close" src="/images/purchase/modalClose.png" alt="">
+      <ul class="modal_head">
+        <li class="modal_head_pledge">质押</li>
+        <li class="modal_head_extract">提取</li>
+      </ul>
+      <div>
+        <div class="modal_body modal_pledge">
+          <div class="modal_input">
+            <p>数量<i>全部</i></p>
+            <input type="number">
+          </div>
+          <ul class="modal_data">
+            <li><p>质押</p><span>1000USDT</span></li>
+            <li><p>预计获得TOTO</p><span>88.88TOTO</span></li>
+          </ul>
+          <button class="modal_btn">确认</button>
+        </div>
+        <div class="modal_body modal_extract">
+          <div class="modal_input">
+            <p>数量<i>全部</i></p>
+            <input type="number">
+          </div>
+          <ul class="modal_data">
+            <li><p>提取</p><span>1000USDT</span></li>
+          </ul>
+          <button class="modal_btn">确认</button>
         </div>
       </div>
     </div>
@@ -217,8 +250,6 @@
   <script src="/js/echarts.js"></script>
   <script src="/js/purhase.js"></script>
   <script src="/js/conversion.js"></script>
-  <script>
-    
-  </script>
+  <script src="/js/modal.js"></script>
 </body>
 </html>
