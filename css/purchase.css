@@ -17,7 +17,7 @@
   font-size: 64px;
   color: #333333;
   line-height: 68px;
-  font-weight: 500;
+  font-weight: 900;
   margin-bottom: 24px;
 }
 .purchase_module_one .purchase_module_left p {
@@ -57,6 +57,7 @@
   color: #666666;
   line-height: 24px;
   font-weight: 200;
+  text-align: justify;
 }
 .purchase_module_two .purchase_module_right p i {
   color: #0385F2;
@@ -140,6 +141,7 @@
   color: #666666;
   line-height: 24px;
   font-weight: 200;
+  text-align: justify;
 }
 .purchase_module_img {
   width: 50%;
@@ -495,7 +497,6 @@
     font-size: 12px;
   }
   .purchase_module_two .purchase_module_right h3 {
-    font-size: 16px;
     margin-top: 3%;
   }
   .purchase_module_txt h3 {
@@ -515,7 +516,28 @@
     font-size: 14px;
   }
   .allocation_tit {
-    font-size: 16px;
+    /* font-size: 16px; */
+  }
+  .purchase_btns button {
+    height: 44px;
+  }
+  .purchase_module_two .purchase_module_left {
+    width: 60%;
+  }
+  .purchase_module_img {
+    width: 60%;
+  }
+  .purchase_module_img img {
+    width: 100%;
+  }
+  .allocation_right {
+    width: 60%;
+  }
+  .allocation_right img {
+    width: 100%;
+  }
+  .purchase_module_one .purchase_module_right {
+    width: 80%;
   }
 }
 

@@ -24,3 +24,7 @@ $('.menu_info_bg').on('click', function() {
   $('.menu_info').css('transform', 'translateX(-100%)')
   $('.menu_info_bg').hide()
 })
+
+
+// 链接钱包 
+$('.line_wallet').click(function(){ console.log('点击了') })

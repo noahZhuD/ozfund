@@ -17,7 +17,7 @@
   font-size: 64px;
   color: #333333;
   line-height: 68px;
-  font-weight: 500;
+  font-weight: 900;
   padding-bottom: 14px;
 }
 .presell_module_one .presell_module_left p {
@@ -26,6 +26,7 @@
   line-height: 32px;
   font-weight: 200;
   margin-top: 10px;
+  text-align: justify;
 }
 .presell_module_one .presell_module_right {
   width: 60%;
@@ -113,6 +114,7 @@
   line-height: 26px;
   font-weight: 200;
   width: 55%;
+  text-align: justify;
 }
 .presell_module_two .presell_module_left ul {
   margin-top: 55px;
@@ -159,7 +161,7 @@
 .presell_module_three {
   margin-bottom: 49px;
 }
-.presell_module_three .w {
+.presell_module_three .presell_module_three_info {
   background: url('/images/presell/bg2.png') no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -229,7 +231,7 @@
   .presell_module_two .presell_module_left i {
     font-size: 20px;
   }
-  .presell_module_three .w {
+  .presell_module_three .presell_module_three_info {
     background-size: cover;
   }
   .presell_module_three p {
@@ -286,8 +288,9 @@
   .presell_module_two .presell_module_left p {
     width: 80%;
   }
-  .presell_module_three .w {
+  .presell_module_three .presell_module_three_info {
     padding: 5% 0 5%;
+    border-radius: 10px;
   }
   .presell_module_three p {
     font-size: 25px;
@@ -356,6 +359,9 @@
   .presell_module_one .presell_module_left h3 {
     font-size: 20px;
   }
+  .presell_module_one .presell_module_right {
+    width: 80%;
+  }
   .presell_time_info_left .presell_time p {
     font-size: 19px;
   }
@@ -372,10 +378,32 @@
   .presell_module_two .presell_module_left p {
     margin-bottom: 5%;
   }
+  .presell_module_two .presell_module_right {
+    width: 60%;
+  }
+  .presell_module_two .presell_module_left ul {
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+  }
+  .presell_module_two .presell_module_left ul li {
+    width: 50%;
+    margin-bottom: 15px;
+  }
   .presell_module_three p {
     font-size: 14px;
   }
   .presell_module_three {
     margin-bottom: 5%; 
+  }
+  .presell_time_wrap {
+    border-radius: 15px;
+  }
+  .presell_time_wrap .presell_time_info {
+    flex-direction: column;
+    text-align: center;
+  }
+  .presell_time_info_right {
+    margin-top: 5%;
+    width: 60%;
   }
 }

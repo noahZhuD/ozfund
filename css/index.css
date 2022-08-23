@@ -261,7 +261,8 @@
   }
   .public_foo .w {
     flex-direction: column;
-    padding: 5% 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .public_foo .rights {
     font-size: 12px;
@@ -278,5 +279,21 @@
   }
   .public_foo ul li {
     margin-bottom: 10px;
+  }
+}
+
+
+.pc_show {
+  display: block;
+}
+.mobile_show {
+  display: none;
+}
+@media (max-width: 480px) {
+  .pc_show {
+    display: none;
+  }
+  .mobile_show {
+    display: block;
   }
 }

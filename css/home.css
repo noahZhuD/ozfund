@@ -468,7 +468,7 @@
     margin: 6% 0 3%;
   }
   .home_module_one .home_module_left span {
-    line-height: 14px;
+    line-height: 24px;
   }
   .home_module_two {
     margin-top: -14%;
@@ -544,7 +544,6 @@
   }
   .home_module_one .home_module_left span {
     font-size: 12px;
-    line-height: 14px;
   }
   .home_module_one .home_module_left {
     width: 52%;
@@ -618,6 +617,9 @@
   }
 }
 @media(max-width: 480px) {
+  .home_module_one {
+    background-size: contain;
+  }
   .home_module_one .w {
     flex-direction: column;
   }
@@ -628,6 +630,9 @@
   }
   .home_module_one .home_module_right {
     width: 80%;
+  }
+  .home_module_two {
+    margin-top: 5%;
   }
   .home_module_two .w {
     flex-direction: column;
@@ -642,6 +647,7 @@
   }
   .home_module_two .home_module_right button {
     margin: 0 auto;
+    height: 44px;
   }
   .home_module_three {
     margin-top: 5%;
@@ -649,23 +655,28 @@
   }
   .module_card {
     flex-direction: column;
-    margin-top: 25%;
+    margin-top: 35%;
   }
   .module_card .card_i:nth-child(1) {
     margin-right: 3%;
-    margin-bottom: 30%;
+    margin-bottom: 35%;
   }
   .module_card .card_i {
-    width: 50%;
+    width: 90%;
+    padding: 18% 25px 12%;
   }
   .card_i_top .card_i_top_foundation {
     display: none;
   }
+  
+  .card_data li p {
+    font-size: 14px;
+  }
   .card_data li span {
-    font-size: 12px;
+    font-size: 14px;
   }
   .card_arrow {
-    bottom: -30px;
+    bottom: -15px;
   }
   .home_module_four {
     margin-top: 0;
@@ -694,7 +705,7 @@
   }
   .home_module_five .home_module_left {
     margin-right: 0;
-    text-align: center;
+    text-align: left;
   }
   .home_module_five .home_module_left img {
     width: 50%;
@@ -702,13 +713,20 @@
   .home_module_five .home_module_right {
     width: 100%;
   }
+  .home_module_five .home_module_right h3 {
+    padding-left: 30%;
+    padding-top: -10%;
+  }
   .input_email {
     width: 80%;
   }
   .card_i_top {
-    top: -25%;
+    top: -30%;
   }
   .card_i_top .card_i_top_img {
     width: 40%;
+  }
+  .home_module_five .home_module_right_gif {
+    display: none;
   }
 }
