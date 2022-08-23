@@ -41,7 +41,7 @@
   justify-content: space-between;
 }
 .purchase_module_two .purchase_module_left {
-  width: 30%;
+  width: 27%;
 }
 .purchase_module_two .purchase_module_right {
   width: 46%;
@@ -146,7 +146,7 @@
   text-align: center;
 }
 .purchase_module_img img {
-  width: 70%;
+  width: 60%;
 }
 /* 模块三 end */
 
@@ -179,17 +179,17 @@
 .graph_data .graph_data_left p {
   font-size: 40px;
   margin-right: 5%;
-  font-family: DINNextW1G;
+  font-family: DINNextW1G-Bold;
   font-weight: inherit;
   font-weight: 500;
 }
 .graph_data .graph_data_left span {
-  font-family: DINNextW1G;
+  font-family: DINNextW1G-Bold;
   font-size: 20px;
   margin-right: 5%;
 }
 .graph_data .graph_data_left i {
-  font-family: DINNextW1G;
+  font-family: DINNextW1G-Bold;
   font-size: 20px;
   color: #0385F2;
 }

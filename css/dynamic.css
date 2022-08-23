@@ -34,7 +34,9 @@
 /* 模块一 end */
 /* 模块二 start */
 .dynamic_module_two {
-  
+  background: url('/images/dynamic/bg2.png') no-repeat;
+  background-size: contain;
+  background-position: right;
 }
 .dynamic_module_tit {
   font-size: 40px;
