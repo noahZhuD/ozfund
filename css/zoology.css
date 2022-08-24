@@ -1,7 +1,7 @@
 /* 模块一 start */
 .zoology_module_one {
   padding: 95px 0 55px;
-  background: url('/images/zoology/module1.png') no-repeat;
+  background: url('/ozfund/images/zoology/module1.png') no-repeat;
   background-size: 100% 100%;
   margin-top: -60px;
 }
@@ -84,7 +84,7 @@
 /* 模块三 start */
 .zoology_module_three {
   padding: 170px 0 180px;
-  background: url('/images/zoology/module2.png') no-repeat;
+  background: url('/ozfund/images/zoology/module2.png') no-repeat;
   background-size: 100% 100%;
 }
 .zoology_module_three .w {

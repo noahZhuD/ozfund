@@ -1,7 +1,7 @@
 /* 模块一 start */
 .home_module_one {
   padding: 141px 0 361px;
-  background: url('/images/home/module1.png') no-repeat;
+  background: url('/ozfund/images/home/module1.png') no-repeat;
   background-size: 100% 100%;
   /* height: 1113px; */
   margin-top: -60px;
@@ -94,7 +94,7 @@
 /* 模块二 end */
 /* 模块三 start */
 .home_module_three {
-  background: url('/images/home/module2.png') no-repeat;
+  background: url('/ozfund/images/home/module2.png') no-repeat;
   background-size: 100% 100%;
   background-color: transparent;
   padding: 145px 0 180px;
@@ -133,12 +133,12 @@
 }
 
 .module_card .card_i:nth-child(1) {
-  background: url('/images/home/card1.png') no-repeat;
+  background: url('/ozfund/images/home/card1.png') no-repeat;
   background-size: 100% 100%;
   margin-right: 50px;
 }
 .module_card .card_i:nth-child(2) {
-  background: url('/images/home/card2.png') no-repeat;
+  background: url('/ozfund/images/home/card2.png') no-repeat;
   background-size: 100% 100%;
 }
 .card_i_top {
@@ -218,7 +218,7 @@
 /* 模块四 start */
 .home_module_four {
   margin-top: -111px;
-  background: url('/images/home/module4.png') no-repeat;
+  background: url('/ozfund/images/home/module4.png') no-repeat;
   background-size: 100%;
   background-position: left bottom;
   background-color: transparent;
@@ -621,7 +621,7 @@
 }
 @media(max-width: 480px) {
   .home_module_one {
-    background: url('/images/home/module11.png') no-repeat;
+    background: url('/ozfund/images/home/module11.png') no-repeat;
     background-size: cover;
   }
   .home_module_one .w {

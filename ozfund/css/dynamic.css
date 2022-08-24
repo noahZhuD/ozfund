@@ -1,6 +1,6 @@
 /* 模块一 start */
 .dynamic_module_one {
-  background: url('/images/dynamic/bg1.png') no-repeat;
+  background: url('/ozfund/images/dynamic/bg1.png') no-repeat;
   background-size: 100% 100%;
   margin-top: -60px;
   padding-top: 60px;
@@ -35,7 +35,7 @@
 /* 模块一 end */
 /* 模块二 start */
 .dynamic_module_two {
-  background: url('/images/dynamic/bg2.png') no-repeat;
+  background: url('/ozfund/images/dynamic/bg2.png') no-repeat;
   background-size: contain;
   background-position: right;
 }
@@ -86,7 +86,7 @@
 
 /* 模块三 start */
 body {
-  background: url('/images/dynamic/bg3.png') no-repeat;
+  background: url('/ozfund/images/dynamic/bg3.png') no-repeat;
   background-size: 100% 30%;
   background-position: bottom;
 }

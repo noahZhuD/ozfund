@@ -1,6 +1,6 @@
 /* 模块一 start */
 .presell_module_one {
-  background: url('/images/purchase/module1.png') no-repeat;
+  background: url('/ozfund/images/purchase/module1.png') no-repeat;
   background-size: 100% 100%;
   margin-top: -60px;
   padding-top: 60px;
@@ -40,7 +40,7 @@
   width: 100%;
   padding: 30px;
   /* background-image: linear-gradient(23deg, #A6CBFF 0%, #E5E9FF 19%, #F2FFFB 56%, #EBEFF9 76%, #DEE7FF 100%, #DEE7FF 100%, #DEE7FF 100%); */
-  background: url('/images/presell/bg1.png') no-repeat;
+  background: url('/ozfund/images/presell/bg1.png') no-repeat;
   background-size: 100% 100%;
   border-radius: 25px;
 }
@@ -165,7 +165,7 @@
   margin-bottom: 49px;
 }
 .presell_module_three .presell_module_three_info {
-  background: url('/images/presell/bg2.png') no-repeat;
+  background: url('/ozfund/images/presell/bg2.png') no-repeat;
   background-position: center;
   background-size: 100% 100%;
   position: relative;

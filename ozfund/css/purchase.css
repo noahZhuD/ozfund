@@ -1,6 +1,6 @@
 /* 模块一 start */
 .purchase_module_one {
-  background: url('/images/purchase/module1.png') no-repeat;
+  background: url('/ozfund/images/purchase/module1.png') no-repeat;
   background-size: 100% 100%;
   margin-top: -60px;
   padding-top: 60px;
@@ -247,7 +247,7 @@
   border-radius: 15px;
   display: flex;
   align-items: center;
-  background: url('/images/purchase/segment.png') no-repeat;
+  background: url('/ozfund/images/purchase/segment.png') no-repeat;
   background-position: center;
 }
 .allocation_left {
@@ -583,7 +583,7 @@
   padding: 0 70px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background: url('/images/purchase/modalHead.png') no-repeat;
+  background: url('/ozfund/images/purchase/modalHead.png') no-repeat;
   background-size: cover;
 }
 .modal_head li {
