@@ -1,4 +1,3 @@
-// 移动导航
 $('.menu').click(function() {
   console.log('dianjile')
   let spans = $(this).children('span')
@@ -25,6 +24,55 @@ $('.menu_info_bg').on('click', function() {
   $('.menu_info_bg').hide()
 })
 
+// 判断是否已经链接钱包
+
+if (window.ethereum) {
+  let addr = window.ethereum.request({ method: 'eth_requestAccounts' })
+  addr.then(res => {
+    console.log(res, '已经链接啦')
+  }).catch(error => {
+    console.log(err, '没有链接')
+  })
+}
+  
 
 // 链接钱包 
-$('.line_wallet').click(function(){ console.log('点击了') })
+$('.line_wallet').click(function(){
+  var userAgent = navigator.userAgent;
+  if (!userAgent.includes('Chrome')) return alert('请使用Google浏览器')
+  if (typeof window.ethereum !== 'undefined') {
+    let addr = window.ethereum.request({ method: 'eth_requestAccounts' })
+    addr.then(res => {
+      // 此处已连接
+      console.log(res, 'rrr')
+    }).catch(err => {
+      if (err.code === -32002) {
+        alert('请在MetaMask绑定用户')
+        window.open('chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/home.html#initialize/welcome')
+
+      }
+      console.log(err, 'err')
+    })
+    
+  } else {
+    alert('没有安装钱包插件,请安装,安装后请刷新本页面再使用')
+    window.open('chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/home.html#initialize/welcome')
+    // message.error({
+    //   content: '',
+    //   onClick: () => { window.open('https://metamask.io/') }
+    // })
+  }
+})
+
+
+
+
+if (window.ethereum) {
+  ethereum.on('accountsChanged', function(e) {
+    console.log(1, e)
+  })
+  ethereum.on('chainChanged', function(e) {
+    console.log(2, e)
+  })
+}
+

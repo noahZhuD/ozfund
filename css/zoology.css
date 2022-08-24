@@ -294,7 +294,9 @@
   .zoology_module_one {
     margin-top: 0;
     padding: 2% 0 3%;
-    background-size: contain;
+    background: url(/images/zoology/module11.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
   }
   .zoology_module_one .zoology_module_left h3 {
     font-size: 25px;
@@ -313,13 +315,15 @@
     margin-top: 5%;
   }
   .zoology_module_two .zoology_module_right h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .zoology_module_two .zoology_module_right p {
     line-height: 1.8;
   }
   .zoology_module_three h3 {
     font-size: 18px;
+    line-height: 1;
+    margin-bottom: 3%;
   }
   .zoology_module_three p {
     line-height: 1.8;
@@ -328,8 +332,9 @@
     font-size: 20px;
   }
   .zoology_module_four .zoology_module_left {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    padding-top: 5%;
   }
   .zoology_module_two .zoology_module_right button {
     height: 44px;
@@ -339,5 +344,14 @@
   }
   .zoology_module_four .zoology_module_right {
     width: 60%;
+  }
+  .zoology_module_three .zoology_module_tit {
+    width: 100%;
+  }
+  .zoology_module_three  {
+    padding: 15% 0 10%;
+  }
+  .zoology_module_four .zoology_module_left p {
+    margin: 3% 0 1%;
   }
 }

@@ -25,8 +25,11 @@
   color: #666666;
   line-height: 32px;
   font-weight: 200;
-  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: justify;
+}
+.presell_module_one .presell_module_left p:nth-last-child(1) {
+  margin-bottom: 0;
 }
 .presell_module_one .presell_module_right {
   width: 60%;
@@ -358,6 +361,7 @@
 @media (max-width: 480px) {
   .presell_module_one .presell_module_left h3 {
     font-size: 20px;
+    padding-bottom: 3%;
   }
   .presell_module_one .presell_module_right {
     width: 80%;
@@ -373,17 +377,14 @@
     padding: 10px;
   }
   .presell_module_two .presell_module_left h3 {
-    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 3%;
   }
   .presell_module_two .presell_module_left p {
     margin-bottom: 5%;
   }
   .presell_module_two .presell_module_right {
     width: 60%;
-  }
-  .presell_module_two .presell_module_left ul {
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
   }
   .presell_module_two .presell_module_left ul li {
     width: 50%;
@@ -397,6 +398,8 @@
   }
   .presell_time_wrap {
     border-radius: 15px;
+    background: url(/images/presell/bg11.png) no-repeat;
+    background-size: 100% 100%;
   }
   .presell_time_wrap .presell_time_info {
     flex-direction: column;
@@ -404,6 +407,9 @@
   }
   .presell_time_info_right {
     margin-top: 5%;
-    width: 60%;
+    width: 80%;
+  }
+  .presell_module_one .presell_module_left p {
+    line-height: 24px;
   }
 }

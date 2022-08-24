@@ -58,6 +58,10 @@
   line-height: 24px;
   font-weight: 200;
   text-align: justify;
+  margin-bottom: 10px;
+}
+.purchase_module_two .purchase_module_right p:nth-last-child(1) {
+  margin-bottom: 0;
 }
 .purchase_module_two .purchase_module_right p i {
   color: #0385F2;
@@ -142,6 +146,10 @@
   line-height: 24px;
   font-weight: 200;
   text-align: justify;
+  margin-bottom: 10px;
+}
+.purchase_module_txt p:nth-last-child(1) {
+  margin-bottom: 0;
 }
 .purchase_module_img {
   width: 50%;
@@ -491,17 +499,18 @@
     padding-top: 10px;
   }
   .purchase_module_one .purchase_module_left h3 {
-    font-size: 32px;
+    font-size: 22px;
   }
   .purchase_module_one .purchase_module_left p {
     font-size: 12px;
   }
   .purchase_module_two .purchase_module_right h3 {
-    margin-top: 3%;
+    margin: 3% 0;
   }
   .purchase_module_txt h3 {
     font-size: 20px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    line-height: 1;
   }
   .graph_tit {
     font-size: 12px;
@@ -517,6 +526,7 @@
   }
   .allocation_tit {
     /* font-size: 16px; */
+    margin-bottom: 3%;
   }
   .purchase_btns button {
     height: 44px;

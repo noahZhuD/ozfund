@@ -17,6 +17,10 @@
   font-family: 'PingFangSC'; 
   src: url('/font/PingFang-Regular.ttf');
 }
+@font-face{
+  font-family: 'PingFang-Medium'; 
+  src: url('/font/PingFang-Medium.ttf');
+}
 
 /* Pc头部 start */
 .public_head {
@@ -289,11 +293,21 @@
 .mobile_show {
   display: none;
 }
+.min_tit, .max_tit {
+  font-family: 'PingFang-Medium';
+}
 @media (max-width: 480px) {
   .pc_show {
     display: none;
   }
   .mobile_show {
     display: block;
+  }
+  .min_tit {
+    font-size: 20px !important;
+  }
+  .max_tit {
+    line-height: 1 !important;
+    font-size: 22px !important;
   }
 }

@@ -224,13 +224,16 @@
 }
 @media (max-width: 480px) {
   .progress_module_one {
-    background-size: contain;
+    background: url(/images/progress/bg11.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
   }
   .progress_module_one .w {
     flex-direction: row;
   }
   .progress_module_one .progress_module_left {
     width: 40%;
+    margin-top: -10%;
   }
   .progress_module_one .progress_module_left h3 {
     font-size: 20px;
