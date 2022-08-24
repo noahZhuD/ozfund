@@ -51,7 +51,7 @@ if (window.ethereum) {
   }).catch(error => {
     linkBtnStatus('')
     removeToken('META_MASK')
-    console.log(err, '没有链接')
+    console.log(error, '没有链接')
   })
 }
   
