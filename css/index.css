@@ -7,19 +7,19 @@
 }
 @font-face{
   font-family: 'DINNextW1G-Bold'; 
-  src: url('/font/DINNextW1G-Bold.otf');
+  src: url('/ozfund/font/DINNextW1G-Bold.otf');
 }
 @font-face{
   font-family: 'DINNextW1G'; 
-  src: url('/font/DINNextW1G-Light.otf');
+  src: url('/ozfund/font/DINNextW1G-Light.otf');
 }
 @font-face{
   font-family: 'PingFangSC'; 
-  src: url('/font/PingFang-Regular.ttf');
+  src: url('/ozfund/font/PingFang-Regular.ttf');
 }
 @font-face{
   font-family: 'PingFang-Medium'; 
-  src: url('/font/PingFang-Medium.ttf');
+  src: url('/ozfund/font/PingFang-Medium.ttf');
 }
 
 /* Pc头部 start */
