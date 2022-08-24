@@ -122,6 +122,10 @@
 }
 /* 模块二 end */
 /* 模块三 start */
+.purchase_module_three_wrap {
+  background: url('/ozfund/images/purchase/bg1.png') no-repeat;
+  background-size: 100% 100%;
+}
 .purchase_module_three {
   margin-bottom: 63px;
 }
