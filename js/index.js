@@ -24,13 +24,33 @@ $('.menu_info_bg').on('click', function() {
   $('.menu_info_bg').hide()
 })
 
-// 判断是否已经链接钱包
+function setToken (key, value) {
+  localStorage.setItem(key, value)
+}
+function getToken (key) {
+  localStorage.getItem(key)
+}
+function removeToken (key) {
+  localStorage.removeItem(key)
+}
+// 是否已经链接钱包
+function linkBtnStatus(v) {
+  if (v === 'success') {
+    $('.line_wallet').text('已连接').attr('disabled', true)
+  } else {
+    $('.line_wallet').text('连接钱包').attr('disabled', false)
+  }
+}
 
 if (window.ethereum) {
   let addr = window.ethereum.request({ method: 'eth_requestAccounts' })
   addr.then(res => {
     console.log(res, '已经链接啦')
+    linkBtnStatus('success')
+    setToken('META_MASK', res[0])
   }).catch(error => {
+    linkBtnStatus('')
+    removeToken('META_MASK')
     console.log(err, '没有链接')
   })
 }
