@@ -24,6 +24,22 @@ $('.menu_info_bg').on('click', function() {
   $('.menu_info_bg').hide()
 })
 
+$('.page_gif').each(function () {
+  let _this = $(this)
+  _this.attr('gitTime') ? scrollChange(_this, Number(_this.attr('gitTime'))) : scrollChange(_this)
+});
+function scrollChange(_this, time = 3) {
+  $(document).scroll(function() {
+    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    var cHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    if (scrollTop > _this.offset().top - cHeight) {
+      if (_this.attr('src').includes('.gif')) return
+      _this.attr('src', _this.attr('src').replace('.png', '.gif'))
+      setTimeout(function() { _this.attr('src', _this.attr('src').replace('.gif', '.png')) }, time * 1000)
+    }
+  })
+}
+
 function setToken (key, value) {
   localStorage.setItem(key, value)
 }
