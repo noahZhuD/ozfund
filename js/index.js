@@ -33,8 +33,8 @@ function scrollChange(_this, time = 3) {
     var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
     var cHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
     if (scrollTop > _this.offset().top - cHeight) {
-      if (_this.attr('src').includes('.gif')) return
-      _this.attr('src', _this.attr('src').replace('.png', '.gif'))
+      if (_this.attr('src').includes('.gif') || _this.attr('past')) return
+      _this.attr('src', _this.attr('src').replace('.png', '.gif')).attr('past', true)
       setTimeout(function() { _this.attr('src', _this.attr('src').replace('.gif', '.png')) }, time * 1000)
     }
   })
