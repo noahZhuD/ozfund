@@ -21,7 +21,7 @@
   line-height: 68px;
 }
 .home_module_one .home_module_left p {
-  font-size: 20px;
+  font-size: 16px;
   color: #222222;
   letter-spacing: 0;
   line-height: 20px;
@@ -100,6 +100,103 @@
   transform: translateX(5px);
 }
 /* 模块二 end */
+/* 模块2.2 start */
+.home_module_conversion {
+  margin-bottom: 60px;
+}
+.conversion_wrap {
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px 10px rgba(3,133,242,0.03);
+  border-radius: 15px;
+  padding: 40px;
+  padding-right: 37px;
+  display: flex;
+  align-items: center;
+}
+.conversion_wrap .conversion_tit {
+  margin-right: 50px;
+}
+.conversion_wrap .conversion_tit p {
+  font-family: PingFang-Medium;
+  font-size: 22px;
+  color: #333333;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding-top: 12px;
+  position: relative;
+  display: inline-block;
+}
+.conversion_wrap .conversion_tit p::after {
+  content: '';
+  width: 30%;
+  height: 3px;
+  background: #0385F2;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.conversion_wrap .conversion_tit span {
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  font-weight: 200;
+  display: block;
+}
+.conversion_info {}
+.conversion_info .conversion_info_tit {
+  font-size: 16px;
+  color: #333333;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.conversion_info_input {
+  display: flex;
+  align-items: center;
+}
+.conversion_info_input_info {
+  display: flex;
+  align-items: center;
+}
+.conversion_info_input input {
+  width: 260px;
+  height: 47px;
+  background: #F7FBFF;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333333;
+  padding: 0 15px;
+  border: none;
+}
+.conversion_info_input i {
+  width: 30px;
+  height: 30px;
+  background: #F7F8F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+.conversion_info_input i img {
+  width: 12.8px;
+}
+.conversion_info_input button {
+  width: 140px;
+  height: 47px;
+  background: #0385F2;
+  border-radius: 10px;
+  font-family: PingFang-Medium;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  margin-left: 33px;
+}
+/* 模块2.2 end */
 /* 模块三 start */
 .home_module_three {
   background: url('/ozfund/images/home/module2.png') no-repeat;
@@ -175,6 +272,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 24px;
 }
 .card_data li p {
   font-size: 14px;
@@ -296,8 +394,6 @@
 .home_module_five .home_module_left img{
   width: 292.31px;
 }
-.home_module_five .home_module_right {
-}
 .home_module_five .home_module_right_gif {
   width: 190px;
 }
@@ -386,7 +482,7 @@
   }
   .home_module_three {
     background-size: 100%;
-    margin-top: -8%;
+    /* margin-top: -8%; */
     padding: 12% 0 15%;
     background-size: cover;
   }
@@ -464,6 +560,22 @@
   .input_email .arrow img {
     width: 48%;
   }
+  .conversion_wrap {
+    padding: 30px;
+  }
+  .conversion_wrap .conversion_tit p {
+    font-size: 18px;
+  }
+  .conversion_wrap .conversion_tit span {
+    font-size: 12px;
+  }
+  .conversion_wrap .conversion_tit {
+    margin-right: 3%;
+  }
+  .conversion_info_input button {
+    margin-left: 3%;
+  }
+
 }
 @media (max-width: 996px) {
   .home_module_one {
@@ -495,7 +607,7 @@
   }
   .home_module_three {
     background-size: 100% 100%;
-    margin-top: -10%;
+    /* margin-top: -10%; */
   }
   .home_module_three .home_modul_tit h3 {
     font-size: 25px;
@@ -547,6 +659,22 @@
   .home_module_five .home_module_right h3 {
     font-size: 20px;
   }
+  .conversion_wrap {
+    padding: 20px;
+  }
+  .conversion_wrap .conversion_tit span {
+    line-height: 1.5;
+  }
+  .conversion_info_input input {
+    font-size: 12px;
+  }
+  .conversion_info_input input {
+    width: 208px;
+  }
+  .conversion_info_input button {
+    width: 112px;
+  }
+
 }
 @media(max-width: 768px) {
   .home_module_one .home_module_left h3 {
@@ -615,6 +743,45 @@
   }
   .home_module_five .home_module_right_gif {
     width: 35%;
+  }
+  .conversion_wrap {
+    flex-direction: column;
+  }
+  .conversion_wrap .conversion_tit {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .conversion_wrap .conversion_tit p {
+    padding-top: 10px;
+    margin-bottom: 8px;
+  }
+  .conversion_info {
+    width: 100%;
+  }
+  .conversion_info .conversion_info_tit {
+    font-size: 14px;
+  }
+  .conversion_info_input {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .conversion_info_input input {
+    height: 44px;
+    width: 45%;
+  }
+  .conversion_info_input button {
+    height: 44px;
+    font-size: 14px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .conversion_info_input_info {
+    width: 100%;
+  }
+  .conversion_info_input i {
+    margin: 0 2.8%;
   }
 
 }
@@ -750,5 +917,25 @@
   }
   .home_module_four .home_module_left h3 {
     margin-bottom: 3%;
+  }
+  .conversion_wrap .conversion_tit p {
+    font-size: 16px;
+    margin-bottom: 1%;
+  }
+  .conversion_wrap .conversion_tit {
+    margin-bottom: 3%;
+  }
+  .conversion_info .conversion_info_tit {
+    font-size: 12px;
+  }
+  .conversion_info_input_info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .conversion_info_input input {
+    width: 100%;
+  }
+  .conversion_info_input i {
+    margin: 3% 0;
   }
 }
