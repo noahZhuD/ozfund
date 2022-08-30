@@ -11,8 +11,8 @@
   justify-content: center;
 }
 .zoology_module_one .zoology_module_left {
-  width: 38%;
-  margin-right: 10%;
+  width: 43%;
+  margin-right: 7%;
   padding-top: 93px;
 }
 .zoology_module_one .zoology_module_left h3 {
@@ -106,7 +106,7 @@
   color: #666666;
   line-height: 24px;
   font-weight: 200;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .zoology_module_three img {
   width: 38%;
@@ -155,9 +155,9 @@
     width: 45%;
   }
 }
-@media (max-width: 1215px) {
+@media (max-width: 1230px) {
   .zoology_module_one .zoology_module_left  {
-    width: 40%;
+    width: 42%;
   }
 }
 @media (max-width: 1200px) {
