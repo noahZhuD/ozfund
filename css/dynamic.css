@@ -35,9 +35,9 @@
 /* 模块一 end */
 /* 模块二 start */
 .dynamic_module_two {
-  background: url('/ozfund/images/dynamic/bg2.png') no-repeat;
+  /* background: url('/ozfund/images/dynamic/bg2.png') no-repeat;
   background-size: contain;
-  background-position: right;
+  background-position: right; */
 }
 .dynamic_module_tit {
   font-size: 40px;
@@ -81,8 +81,8 @@
 
 /* 模块三 start */
 body {
-  background: url('/ozfund/images/dynamic/bg3.png') no-repeat;
-  background-size: 100% 30%;
+  background: url('/ozfund/images/dynamic/bg5.png') no-repeat;
+  background-size: 100% 40%;
   background-position: bottom;
 }
 .dynamic_module_three {

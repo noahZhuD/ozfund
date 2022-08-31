@@ -27,7 +27,7 @@
 /* 模块二 */
 .progress_module_two {
   background: url('/ozfund/images/progress/bg2.png') no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   padding: 5% 0 200px;
 }
 .progress_list {
