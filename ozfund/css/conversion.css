@@ -30,6 +30,10 @@
 .conversion_info_top span {
   color: #999999;
 }
+.conversion_info_top span i {
+  color: #0385F2;
+  cursor: pointer;
+}
 .conversion_info_input {
   display: flex;
   align-items: center;
