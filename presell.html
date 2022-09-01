@@ -176,7 +176,7 @@
       var remainHour = Math.floor(remianAllSeconds / (60 * 60) % 24) // 剩余小时
       var remainMinute = Math.floor(remianAllSeconds / 60 % 60) // 剩余分
       var remainSecond = Math.floor(remianAllSeconds % 60) // 剩余秒
-      return `<p>${ remainDay }</p><i>d</i><p>${ remainHour }</p><i>h</i><p>${ remainMinute }</p><i>m</i>`
+      return `<p>${ remainDay }</p><i>d</i><p>${ remainHour }</p><i>h</i><p>${ remainMinute }</p><i>m</i><p>${ remainSecond }</p><i>s</i>`
     }
     var timer = null
     clearInterval(timer)
