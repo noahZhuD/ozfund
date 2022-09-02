@@ -1,0 +1,170 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "name": "spender",
+            "type": "address"
+          },{
+            "name": "amount",
+            "type": "uint"
+          }
+        ],
+        "name": "transferInfo",
+        "type": "tuple[]"
+      },
+      {
+        "name": "poolName",
+        "type": "string"
+      }
+    ],
+    "name": "permitApprove",
+    "outputs": [
+
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },{
+  "constant": false,
+  "inputs": [],
+  "name": "switchExchange",
+  "outputs": [
+
+  ],
+  "payable": false,
+  "stateMutability": "nonpayable",
+  "type": "function"
+  },{
+    "constant": false,
+      "inputs": [
+        {
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "name": "contractAddress",
+          "type": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "exchange",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+  },{
+  "constant": false,
+      "inputs": [
+        {
+          "name": "timestamp",
+          "type": "uint256"
+        }
+      ],
+      "name": "produce",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+  },{
+    "constant": false,
+    "inputs": [
+      {
+        "name": "timestamp",
+        "type": "uint256"
+      }
+    ],
+    "name": "settleStake",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },{
+    "constant": false,
+    "inputs": [
+
+    ],
+    "name": "ozcoinStake",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },{
+    "constant": false,
+    "inputs": [
+      {
+        "name": "contractAddress",
+        "type": "address"
+      },
+      {
+        "name": "targetAddress",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "withdrawErc20",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },{
+    "constant": false,
+    "inputs": [
+      {
+        "name": "contractAddress",
+        "type": "address"
+      },
+      {
+        "name": "targetAddress",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "withdrawStake",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

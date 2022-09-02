@@ -1,0 +1,84 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "name": "spender",
+            "type": "address"
+          },{
+            "name": "amount",
+            "type": "uint"
+          }
+        ],
+        "name": "transferInfo",
+        "type": "tuple[]"
+      },
+      {
+        "name": "poolName",
+        "type": "string"
+      }
+    ],
+    "name": "di",
+    "outputs": [
+
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },{
+    "constant": false,
+    "inputs": [
+      {
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "name": "nonce",
+        "type": "uint256"
+      },
+      {
+        "name": "deadline",
+        "type": "uint256"
+      },
+      {
+        "name": "v",
+        "type": "uint8"
+      },
+      {
+        "name": "r",
+        "type": "bytes32"
+      },
+      {
+        "name": "s",
+        "type": "bytes32"
+      }
+    ],
+    "name": "stake",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },{
+    "constant": false,
+    "inputs": [
+
+    ],
+    "name": "redemption",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

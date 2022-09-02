@@ -1,0 +1,24 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "targetAddress",
+        "type": "address"
+      },{
+        "name": "data",
+        "type": "bytes"
+      }
+    ],
+    "name": "submitTransaction",
+    "outputs": [
+      {
+        "name": "transactionId",
+        "type": "uint"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
