@@ -30,7 +30,7 @@
 .conversion_info_top span {
   color: #999999;
 }
-.conversion_info_top span i {
+.conversion_info_top span i.oper {
   color: #0385F2;
   cursor: pointer;
 }

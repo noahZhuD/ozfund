@@ -105,6 +105,9 @@ async function startConnect() {
 async function getBalance(account) {
   let balanceHex = await ethereum.request({ method: 'eth_getBalance', params: [account,"latest"] });
   balance = web3.utils.fromWei(String(BigInt(balanceHex)),'ether');
+  getERC20Balance(totoContractAddress, $('.toto_number'), 'ether')
+  getERC20Balance(ozcoinContractAddress, $('.ozc_number'), 'ether')
+  getERC20Balance(usdtContractAddress, $('.busd_number'), 'mwei');
 }
 // 获取toto
 function getTotoBalance() {
