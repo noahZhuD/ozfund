@@ -71,7 +71,7 @@
       <div class="conversion">
         <div class="conversion_top">
           <div class="conversion_info">
-            <div class="conversion_info_top"><p>从</p><span>数量：<i class="busd_number">1999</i>BUSD <i class="oper">最大限度</i></span></div>
+            <div class="conversion_info_top"><p>从</p><span>数量：<i class="busd_number">1999</i>BUSD <i class="conver_oper">最大限度</i></span></div>
             <div class="conversion_info_input">
               <p>BUSD</p>
               <input id="usdt" type="number" placeholder="0">
@@ -84,7 +84,7 @@
             <div class="conversion_info_top"><p>至</p><span>数量：<i class="ozc_number">1999OZC</i></span></div>
             <div class="conversion_info_input">
               <p>Ozcoin</p>
-              <input id="ozc" type="number" placeholder="0">
+              <input readonly id="ozc" type="number" placeholder="0">
             </div>
           </div>
         </div>
@@ -128,24 +128,25 @@
       <div>
         <div class="modal_body modal_pledge">
           <div class="modal_input">
-            <p>数量<i>全部</i></p>
-            <input type="number">
+            <p>数量<i class="all_pledge_number">全部</i></p>
+            <input class="pledge_input" type="number">
           </div>
           <ul class="modal_data">
-            <li><p>质押</p><span>1000BUSD</span></li>
-            <li><p>预计获得TOTO</p><span>88.88TOTO</span></li>
+            <li><p>质押</p><span><i class="pledge_number">-</i> OZC</span></li>
+            <li><p>预计获得TOTO</p><span>--TOTO</span></li>
           </ul>
-          <button class="modal_btn">确认</button>
+          <button class="modal_btn pledge_btn">确认</button>
         </div>
         <div class="modal_body modal_extract">
           <div class="modal_input">
             <p>数量<i>全部</i></p>
-            <input type="number">
+            <!-- <input type="number"> -->
           </div>
           <ul class="modal_data">
-            <li><p>提取</p><span>1000BUSD</span></li>
+            <li><p>提取</p><span>--TOTO</span></li>
+            <li><p>提取</p><span>--OZC</span></li>
           </ul>
-          <button class="modal_btn">确认</button>
+          <button class="modal_btn extract_btn">确认</button>
         </div>
       </div>
     </div>
